@@ -6,16 +6,20 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb, server: 1.1.1.1, port: 80, type: vmess, uuid: a20ffefe-e575-4ca8-d0d9-608df76552e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /stream, ws-headers: {Host: 1.1.1.1}}
-  - {name: 🇨🇳 CN_10 |15.07Mb, server: android.ufunr.me, port: 8888, type: ss, cipher: aes-256-cfb, password: !<str> 123}
-  - {name: 🇨🇳 CN_11 | 6.45Mb, server: android.ufunr.me, port: 8888, type: ssr, cipher: aes-256-cfb, password: !<str> 123, protocol: origin, obfs: plain, protocol-param: t.me/SSRSUB, obfs-param: ""}
   - {name: 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb, server: 117.28.243.248, port: 8333, type: ssr, cipher: rc4-md5, password: passfw2xs4e!, protocol: origin, obfs: plain, protocol-param: "", obfs-param: WWW.YOUNEED.WIN}
   - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb, server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: 940e2252-f723-4816-9535-87b209de80fc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
   - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 940e2252-f723-4816-9535-87b209de80fc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
+  - {name: 🇫🇷 FR_16 |43.40Mb, server: 51.195.149.30, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb, server: game-hk.june628.ml, port: 10163, type: vmess, uuid: 9b9955c9-3562-48b8-a0f7-98ef8258e51f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /By:June-@CloudLinkGroup, ws-headers: {Host: game-hk.june628.ml}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb, server: 23.101.11.40, port: 10008, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
   - {name: 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb, server: di2.xyz, port: 39008, type: vmess, uuid: 072dee67-9f6c-36c4-9ef3-c6ec419e437f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: di2.xyz}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb, server: vip345.xyz, port: 39018, type: vmess, uuid: ccf613d6-ce0f-355d-b1ba-c246b9b5a27e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
   - {name: 🇭🇰 HK_24, server: 52.184.71.53, port: 11035, type: trojan, password: ZOfTWgka, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP_26 |10.10Mb, server: 5.183.176.117, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: 5.183.176.117}}
   - {name: 🇰🇷 KR_27 |25.22Mb, server: 52.79.60.0, port: 23290, type: ss, cipher: aes-256-gcm, password: boWiglZbWT}
   - {name: 🇺🇲 Pool_🇺🇸US_40 |43.56Mb, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇲 Pool_🇺🇸US_41 |45.35Mb, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
@@ -38,16 +42,20 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
@@ -70,16 +78,20 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
@@ -102,16 +114,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
@@ -133,16 +149,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
@@ -164,16 +184,20 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
@@ -195,16 +219,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
@@ -227,16 +255,20 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
@@ -275,16 +307,20 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇦🇺 Relay_🇦🇺AU-🇺🇸US_03 |28.95Mb
-      - 🇨🇳 CN_10 |15.07Mb
-      - 🇨🇳 CN_11 | 6.45Mb
       - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_12 | 1.76Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_13 | 6.05Mb
       - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_14 |11.07Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_15 |28.52Mb
+      - 🇫🇷 FR_16 |43.40Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17 |84.43Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_18 |35.13Mb
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_19 |98.40Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_20 | 2.45Mb
       - 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_21 |10.83Mb
       - 🇩🇪 Relay_🇭🇰HK-🇩🇪DE_22 |10.31Mb
       - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_23 |10.54Mb
       - 🇭🇰 HK_24
+      - 🇯🇵 JP_26 |10.10Mb
       - 🇰🇷 KR_27 |25.22Mb
       - 🇺🇲 Pool_🇺🇸US_40 |43.56Mb
       - 🇺🇲 Pool_🇺🇸US_41 |45.35Mb
