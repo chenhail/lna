@@ -5,22 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇫🇷 FR_1163 |25.42Mb, server: 163.172.110.119, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_05 |46.80Mb, server: ss3.ssrsub.one, port: 8443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
-  - {name: CA_07 |36.08Mb, server: ssr2.ssrsub.one, port: 57479, type: ssr, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: CA_11 |33.49Mb, server: ssr4.ssrsub.one, port: 57479, type: ssr, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇫🇷 FR_18 |50.73Mb, server: 51.89.115.72, port: 443, type: vmess, uuid: 6a7e3fcf-6256-4eaa-9d37-07886949b94f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 51.89.115.72}}
-  - {name: 🇫🇷 FR_19 |51.19Mb, server: 51.195.112.160, port: 443, type: vmess, uuid: 6a7e3fcf-6256-4eaa-9d37-07886949b94f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 51.195.112.160}}
-  - {name: 🇯🇵 JP_22 |35.85Mb, server: ssr7.ssrsub.one, port: 57478, type: ssr, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 US_54 |159.12Mb, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 US_55 |155.32Mb, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 US_56 |61.02Mb, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_64 |44.59Mb, server: 23.224.69.18, port: 443, type: vmess, uuid: 76003e21-7cce-430a-a823-428a7f012aa2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 23.224.69.18}}
-  - {name: 🇺🇸 US_67 |40.43Mb, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 US_72 |46.81Mb, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.21.48.161}}
-  - {name: 🇺🇸 US_74 |39.47Mb, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.154.85}}
-  - {name: 🇺🇸 US_76 |45.78Mb, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.18.6.138}}
-  - {name: 🇺🇸 US_77 |47.49Mb, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.18.7.138}}
+  - {name: 101.fbplay.net:10017, server: 101.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 103.fbplay.net:10017, server: 103.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 102.fbplay.net:10017, server: 102.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 104.fbplay.net:10017, server: 104.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 5.fbplay.net:10017, server: 5.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 108.fbplay.net:10017, server: 108.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 106.fbplay.net:10017, server: 106.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 22.fbplay.net:10017, server: 22.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 107.fbplay.net:10017, server: 107.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 1.fbplay.net:10017, server: 1.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 105.fbplay.net:10017, server: 105.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 24.fbplay.net:10017, server: 24.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 23.fbplay.net:10017, server: 23.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 3.fbplay.net:10017, server: 3.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
+  - {name: 109.fbplay.net:10017, server: 109.fbplay.net, port: 10017, type: ss, cipher: aes-256-gcm, password: 9aee1b67}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -29,86 +28,82 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇫🇷 FR_1163 |25.42Mb
-      - CA_05 |46.80Mb
-      - CA_07 |36.08Mb
-      - CA_11 |33.49Mb
-      - 🇫🇷 FR_18 |50.73Mb
-      - 🇫🇷 FR_19 |51.19Mb
-      - 🇯🇵 JP_22 |35.85Mb
-      - 🇺🇸 US_54 |159.12Mb
-      - 🇺🇸 US_55 |155.32Mb
-      - 🇺🇸 US_56 |61.02Mb
-      - 🇺🇸 US_64 |44.59Mb
-      - 🇺🇸 US_67 |40.43Mb
-      - 🇺🇸 US_72 |46.81Mb
-      - 🇺🇸 US_74 |39.47Mb
-      - 🇺🇸 US_76 |45.78Mb
-      - 🇺🇸 US_77 |47.49Mb
+      - 101.fbplay.net:10017
+      - 103.fbplay.net:10017
+      - 102.fbplay.net:10017
+      - 104.fbplay.net:10017
+      - 5.fbplay.net:10017
+      - 108.fbplay.net:10017
+      - 106.fbplay.net:10017
+      - 22.fbplay.net:10017
+      - 107.fbplay.net:10017
+      - 1.fbplay.net:10017
+      - 105.fbplay.net:10017
+      - 24.fbplay.net:10017
+      - 23.fbplay.net:10017
+      - 3.fbplay.net:10017
+      - 109.fbplay.net:10017
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 FR_1163 |25.42Mb
-      - CA_05 |46.80Mb
-      - CA_07 |36.08Mb
-      - CA_11 |33.49Mb
-      - 🇫🇷 FR_18 |50.73Mb
-      - 🇫🇷 FR_19 |51.19Mb
-      - 🇯🇵 JP_22 |35.85Mb
-      - 🇺🇸 US_54 |159.12Mb
-      - 🇺🇸 US_55 |155.32Mb
-      - 🇺🇸 US_56 |61.02Mb
-      - 🇺🇸 US_64 |44.59Mb
-      - 🇺🇸 US_67 |40.43Mb
-      - 🇺🇸 US_72 |46.81Mb
-      - 🇺🇸 US_74 |39.47Mb
-      - 🇺🇸 US_76 |45.78Mb
-      - 🇺🇸 US_77 |47.49Mb
+      - 101.fbplay.net:10017
+      - 103.fbplay.net:10017
+      - 102.fbplay.net:10017
+      - 104.fbplay.net:10017
+      - 5.fbplay.net:10017
+      - 108.fbplay.net:10017
+      - 106.fbplay.net:10017
+      - 22.fbplay.net:10017
+      - 107.fbplay.net:10017
+      - 1.fbplay.net:10017
+      - 105.fbplay.net:10017
+      - 24.fbplay.net:10017
+      - 23.fbplay.net:10017
+      - 3.fbplay.net:10017
+      - 109.fbplay.net:10017
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇫🇷 FR_1163 |25.42Mb
-      - CA_05 |46.80Mb
-      - CA_07 |36.08Mb
-      - CA_11 |33.49Mb
-      - 🇫🇷 FR_18 |50.73Mb
-      - 🇫🇷 FR_19 |51.19Mb
-      - 🇯🇵 JP_22 |35.85Mb
-      - 🇺🇸 US_54 |159.12Mb
-      - 🇺🇸 US_55 |155.32Mb
-      - 🇺🇸 US_56 |61.02Mb
-      - 🇺🇸 US_64 |44.59Mb
-      - 🇺🇸 US_67 |40.43Mb
-      - 🇺🇸 US_72 |46.81Mb
-      - 🇺🇸 US_74 |39.47Mb
-      - 🇺🇸 US_76 |45.78Mb
-      - 🇺🇸 US_77 |47.49Mb
+      - 101.fbplay.net:10017
+      - 103.fbplay.net:10017
+      - 102.fbplay.net:10017
+      - 104.fbplay.net:10017
+      - 5.fbplay.net:10017
+      - 108.fbplay.net:10017
+      - 106.fbplay.net:10017
+      - 22.fbplay.net:10017
+      - 107.fbplay.net:10017
+      - 1.fbplay.net:10017
+      - 105.fbplay.net:10017
+      - 24.fbplay.net:10017
+      - 23.fbplay.net:10017
+      - 3.fbplay.net:10017
+      - 109.fbplay.net:10017
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇫🇷 FR_1163 |25.42Mb
-      - CA_05 |46.80Mb
-      - CA_07 |36.08Mb
-      - CA_11 |33.49Mb
-      - 🇫🇷 FR_18 |50.73Mb
-      - 🇫🇷 FR_19 |51.19Mb
-      - 🇯🇵 JP_22 |35.85Mb
-      - 🇺🇸 US_54 |159.12Mb
-      - 🇺🇸 US_55 |155.32Mb
-      - 🇺🇸 US_56 |61.02Mb
-      - 🇺🇸 US_64 |44.59Mb
-      - 🇺🇸 US_67 |40.43Mb
-      - 🇺🇸 US_72 |46.81Mb
-      - 🇺🇸 US_74 |39.47Mb
-      - 🇺🇸 US_76 |45.78Mb
-      - 🇺🇸 US_77 |47.49Mb
+      - 101.fbplay.net:10017
+      - 103.fbplay.net:10017
+      - 102.fbplay.net:10017
+      - 104.fbplay.net:10017
+      - 5.fbplay.net:10017
+      - 108.fbplay.net:10017
+      - 106.fbplay.net:10017
+      - 22.fbplay.net:10017
+      - 107.fbplay.net:10017
+      - 1.fbplay.net:10017
+      - 105.fbplay.net:10017
+      - 24.fbplay.net:10017
+      - 23.fbplay.net:10017
+      - 3.fbplay.net:10017
+      - 109.fbplay.net:10017
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,22 +123,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇫🇷 FR_1163 |25.42Mb
-      - CA_05 |46.80Mb
-      - CA_07 |36.08Mb
-      - CA_11 |33.49Mb
-      - 🇫🇷 FR_18 |50.73Mb
-      - 🇫🇷 FR_19 |51.19Mb
-      - 🇯🇵 JP_22 |35.85Mb
-      - 🇺🇸 US_54 |159.12Mb
-      - 🇺🇸 US_55 |155.32Mb
-      - 🇺🇸 US_56 |61.02Mb
-      - 🇺🇸 US_64 |44.59Mb
-      - 🇺🇸 US_67 |40.43Mb
-      - 🇺🇸 US_72 |46.81Mb
-      - 🇺🇸 US_74 |39.47Mb
-      - 🇺🇸 US_76 |45.78Mb
-      - 🇺🇸 US_77 |47.49Mb
+      - 101.fbplay.net:10017
+      - 103.fbplay.net:10017
+      - 102.fbplay.net:10017
+      - 104.fbplay.net:10017
+      - 5.fbplay.net:10017
+      - 108.fbplay.net:10017
+      - 106.fbplay.net:10017
+      - 22.fbplay.net:10017
+      - 107.fbplay.net:10017
+      - 1.fbplay.net:10017
+      - 105.fbplay.net:10017
+      - 24.fbplay.net:10017
+      - 23.fbplay.net:10017
+      - 3.fbplay.net:10017
+      - 109.fbplay.net:10017
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2555,6 +2549,7 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+ - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
@@ -2563,6 +2558,7 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
